@@ -22,6 +22,7 @@
 		FE1EDDFA27875CC70037AE54 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FE1EDDF927875CC70037AE54 /* FirebaseAuth */; };
 		FE1EDDFC27875CC70037AE54 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FE1EDDFB27875CC70037AE54 /* FirebaseFirestore */; };
 		FE1EDDFE278772200037AE54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EDDFD278772200037AE54 /* Constants.swift */; };
+		FE1EDE0027877A840037AE54 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EDDFF27877A840037AE54 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D8A5D58594DE16E32336FFAF /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 		FE1EDDF627875AC40037AE54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE1EDDFD278772200037AE54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE1EDDFF27877A840037AE54 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		0B628194235DF03A00E35CAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FE1EDDFF27877A840037AE54 /* Models.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */,
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
+				FE1EDE0027877A840037AE54 /* Models.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				FE1EDDFE278772200037AE54 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
