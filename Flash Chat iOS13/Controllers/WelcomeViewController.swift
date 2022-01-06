@@ -17,6 +17,8 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         
         titleLabel.text = "⚡️FlashChat"
+
+// ACHIEVE SAME THING AS CLTYPING LABEL
         
 //        titleLabel.text = ""
 //
