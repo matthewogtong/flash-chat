@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct Models {
+struct Message {
     
     let sender: String
-    let message: String
+    let body: String
     
 }
