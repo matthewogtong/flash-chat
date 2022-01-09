@@ -119,7 +119,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3X-Pg-CWg">
                                         <rect key="frame" x="0.0" y="126" width="414" height="51"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                         <state key="normal" title="Register">
                                             <color key="titleColor" name="BrandBlue"/>
                                         </state>
@@ -369,12 +369,10 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="y7D-jv-BlJ">
-            <size key="intrinsicContentSize" width="307.5" height="60"/>
-        </designable>
+        <designable name="y7D-jv-BlJ"/>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="6FH-r5-lDE"/>
+        <segue reference="1Pv-V7-eQO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>

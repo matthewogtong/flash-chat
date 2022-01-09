@@ -27,4 +27,5 @@ struct K {
         static let bodyField = "body"
         static let dateField = "date"
     }
+    
 }
