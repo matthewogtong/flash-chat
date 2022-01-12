@@ -40,7 +40,7 @@ class ChatViewController: UIViewController {
             self.messages = []
             
             if let error = error {
-            lea     //MARK: -                print("There was an error retreiving data from Firestore. \(error)")
+                print("There was an error retreiving data from Firestore. \(error)")
             } else {
                 if let snapshotDocuments = querySnapshot?.documents {
                     for doc in snapshotDocuments {
