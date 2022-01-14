@@ -52,6 +52,8 @@ class ChatViewController: UIViewController {
                     }
                     DispatchQueue.main.async {
                         self.tableView.reloadData()
+                        let indexPath = IndexPath(row: self.messages.count - 1, section: 0)
+                        self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
                     }
                 }
             }
@@ -113,7 +115,7 @@ extension ChatViewController: UITableViewDataSource {
             cell.label.textColor = UIColor(named: K.BrandColors.purple)
         }
         
-        //This is a message from another sender.
+        //This is a message from another sender.x
         else {
             cell.leftImageView.isHidden = false
             cell.rightImageView.isHidden = true
