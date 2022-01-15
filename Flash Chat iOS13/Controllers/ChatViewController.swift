@@ -116,7 +116,7 @@ extension ChatViewController: UITableViewDataSource {
             cell.label.textColor = UIColor(named: K.BrandColors.purple)
         }
         
-        //This is a message from another sender.x
+        //This is a message from another sender.
         else {
             cell.leftImageView.isHidden = false
             cell.rightImageView.isHidden = true
